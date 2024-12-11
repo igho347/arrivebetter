@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Percentage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Success Percentage Calculator</h1>
+        <form id="calculatorForm">
+            <div class="form-group">
+                <label for="city">Select City:</label>
+                <select id="city" required>
+                    <option value="">Select City</option>
+                    <option value="Calgary">Calgary</option>
+                    <option value="Saint John">Saint John</option>
+                    <option value="Toronto">Toronto</option>
+                    <!-- Add options for other cities -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="jobType">Select Job Type:</label>
+                <select id="jobType" required>
+                    <option value="">Select Job Type</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="it">IT</option>
+                    <!-- Add options for other job types -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" min="18" max="100" required>
+            </div>
+            <div class="form-group">
+                <label for="familyStatus">Family Status:</label>
+                <select id="familyStatus" required>
+                    <option value="">Select Family Status</option>
+                    <option value="with_family">With Family</option>
+                    <option value="without_family">Without Family</option>
+                </select>
+            </div>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<a href="result.htm">Result page</a>
+
+</html>
