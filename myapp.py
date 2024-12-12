@@ -10,7 +10,7 @@ city_data = {
                    "it": {"likelihood": 0.35, "accommodation": 0.65, "family_support": 0.65}},
     "Toronto": {"engineering": {"likelihood": 0.35, "accommodation": 0.60, "family_support": 0.75},
                 "it": {"likelihood": 0.50, "accommodation": 0.60, "family_support": 0.75}},
-    # Add data for other cities...
+    # Add data for other cities around the world.....
 }
 
 def calculate_success_percentage(city, job_type, age, family_status):
